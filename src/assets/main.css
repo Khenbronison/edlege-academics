@@ -1,4 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?fami.ly=Poppins:wght@100;200;300;400;500;600;700;800:900&display=swap*');
+@import url("https://fonts.googleapis.com/css2?fami.ly=Poppins:wght@100;200;300;400;500;600;700;800:900&display=swap*");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  @apply text-sm;
+}
+
+body {
+  @apply bg-[#f3f3f3];
+  font-family: "poppins", sans-serif;
+}
+
+.blue-text {
+  @apply text-[#0053D3];
+}
+
+.blue-button {
+  @apply text-white bg-[#0053D3] rounded-md hover:bg-blue-600 duration-300 cursor-pointer;
+}
+
+.green-button {
+  @apply text-white bg-emerald-500 rounded-xl hover:bg-emerald-600 duration-300 cursor-pointer;
+}
